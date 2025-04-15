@@ -63,6 +63,7 @@ Processed data is saved in an Azure Storage account:.
 **Example Blob Path:**
 
     skateway/2025/04/14/17/
+    
 **Sample Output JSON:**
 
     {
@@ -97,6 +98,8 @@ First, make sure that Python is installed on your device, and install the azure-
     pip install azure-iot-device
 
 Navigate to the sensor-simulation/ directory in your project folder.
+
+**BE SURE TO CHANGE THE "YOUR STRING HERE" LINE WITH YOUR UNIQUE STRING GENERATED FROM AZURE! MORE DETAILS ON AZURE FOLLOW THIS SECTION**
 
 Open three seperate command prompts, one for each script.
 
@@ -176,6 +179,8 @@ Once linked, results will be continually generated! Note that:
 - Trends across time are captured
 
 - Information is ready for future use in dashboards, alerts, or decision-making tools
+
+These results can be examined in Azure, or downloaded at your convenience!
 
 ## Conclusion
 
